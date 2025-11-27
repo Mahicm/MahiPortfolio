@@ -17,12 +17,13 @@ function Projects() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
               {PROJECTS.map((project) => (
                 <div key={project.id} className="bg-white p-6 bg-zinc-50 rounded-2xl border border-zinc-200 shadow-sm hover:shadow-lg  hover:-translate-y-1 transition-all transition-colors">
-                  <div className="flex justify-between items-start mb-4">
                     <img 
-                        src={project.image} 
+                        src={project.url} 
                         className="w-full h-40 object-cover rounded-lg mb-4"
                         alt={project.title}
                         />
+                  <div className="flex justify-between items-start mb-4">
+                    
                     <h3 className="text-lg font-bold text-zinc-900 group-hover:text-zinc-700 transition-colors">
                       {project.title}
                     </h3>

@@ -35,7 +35,7 @@ export const PROJECTS = [
     title: "ResuMatch AI",
     description: "Created an intelligent tool using Gemini AI Studio's LLM to parse resumes and calculate ATS compatibility scores, providing actionable feedback for candidates.",
     tags: ["Gemini API", "React"],
-    url:"../Images/ResuMatch.png"
+    url:"/Images/ResuMatch.png"
   },
   {
     id: 2,
