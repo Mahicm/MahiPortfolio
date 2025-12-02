@@ -4,6 +4,7 @@ A modern, clean and fully responsive Developer Portfolio Website built using Rea
 This portfolio also includes a working contact form using EmailJS (no backend required).
 
 🚀 Features
+
 ✨ 1. Beautiful Hero Section
 
 Your name, role, and CTA buttons
@@ -81,7 +82,7 @@ EmailJS
 
 Other Tools
 
-Vite / CRA (whatever you used)
+Vite
 
 Git & GitHub
 
@@ -89,7 +90,7 @@ Responsive Design Best Practices
 
 ⚙️ Setup Instructions
 1️⃣ Clone the repository
-git clone https://github.com/yourusername/your-portfolio.git
+git clone https://github.com/Mahicm/MahiPortfolio.git
 cd your-portfolio
 
 2️⃣ Install dependencies
