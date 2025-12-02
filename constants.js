@@ -11,16 +11,26 @@ export const PERSONAL_INFO = {
 
 
 };
-
 export const EXPERIENCES = [
   {
     id: 1,
-    role: "Full Stack Developer",
+    role: "Frontend Developer",
     company: "Elite Tech Corp", 
     period: "2024 - 2025",
-    description: "Developed and maintained responsive web applications using the React.js & Node.js stack. Collaborated with cross-functional teams to integrate AI models into web interfaces.",
-    technologies: ["React", "Node.js", "Redux", "Tailwind", "REST APIs","Material UI"]
-  },
+    description: [
+      "Built responsive and high-performance UI using React.js, Redux, and modern JavaScript.",
+      "Developed reusable components and implemented global state management using Redux Toolkit.",
+      "Integrated REST APIs, handled error states, data loading, and optimized UI rendering.",
+      "Created proof-of-concept (POC) demo applications for client meetings.",
+      "Worked with Node.js to build backend APIs and connect data to the frontend.",
+      "Integrated Zoho REST APIs and worked with Zoho Catalyst for backend workflows.",
+      "Collaborated with clients to understand requirements, provide updates, and deliver demos."
+    ],
+    technologies: [
+      "React", "Redux", "JavaScript", "Node.js", "REST APIs",
+      "Tailwind CSS", "Zoho Catalyst", "Zoho REST APIs"
+    ]
+  }
 ];
 
 export const EDUCATION = [
