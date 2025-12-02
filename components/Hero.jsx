@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Mail } from 'lucide-react';
+import { ArrowRight, Mail, Download } from 'lucide-react';
 import { PERSONAL_INFO } from '../constants.js';
 
 const Hero = () => {
@@ -30,7 +30,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
                 href="#contact" 
-                className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-medium text-white bg-zinc-900 rounded-lg hover:bg-zinc-800 transition-all group"
+                className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-medium text-zinc-700 border bg-gray-100 border-zinc-400 rounded-lg hover:bg-zinc-50 transition-all "
               >
                 Contact Me
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -39,10 +39,11 @@ const Hero = () => {
                  href={`https://mail.google.com/mail/?view=cm&to=${PERSONAL_INFO.email}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-medium text-zinc-700 bg-white border border-zinc-200 rounded-lg hover:bg-zinc-50 transition-all"
+                className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-medium text-white bg-zinc-900   rounded-lg hover:bg-zinc-800 transition-all group"
               >
-                <Mail className="mr-2 w-4 h-4" />
-                Email Me
+                {/* <Mail className="mr-2 w-4 h-4" /> */}
+                Resume
+                <Download className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform"/>
               </a>
             </div>
           </div>

@@ -4,7 +4,7 @@ export const PERSONAL_INFO = {
   title: "AI & Data Science Engineer | Full Stack Developer",
   email: "mahichinu02@gmail.com",
   about: "I am a B.Tech graduate in AI & Data Science (2024) with over 1 year of practical experience in full-stack development. I bridge the gap between robust software engineering and intelligent data solutions. My expertise spans building scalable web applications with React and Node.js to developing machine learning models with Python.",
-  location: "India",
+  location: "Bangalore, India",
   resumeLink: "#" ,
   linkedin: "https://www.linkedin.com/in/mahindha-c-123456789/",
   github: "https://github.com/Mahicm"
