@@ -1,4 +1,6 @@
 
+import resuMatch from './images/ResuMatch.png';
+
 export const PERSONAL_INFO = {
   name: "Mahindha C",
   title: "AI & Data Science Engineer | Full Stack Developer",
@@ -56,7 +58,7 @@ export const PROJECTS = [
     title: "ResuMatch AI",
     description: "ResumeMatch AI is an intelligent resume analyzer that uses Google Gemini AI to extract structured information from resumes (PDFs, Docs) and compare them with job descriptions. The system calculates a match score, highlights missing skills, generates improved bullet points, and provides ATS-optimized suggestions to increase job-fit and resume quality. Users can upload their resume, paste a job description, and instantly receive a detailed analysis powered by generative AI.",
     tags: ["React", "Vite", "Tailwind CSS","Google Gemini 2.5 Flash API","Vercel Deployment"],
-    url:"/images/ResuMatch.png",
+    url:resuMatch,
     link:"https://resu-match-ai-ten.vercel.app/",
     gitlink:"https://github.com/Mahicm/ResuMatchAI"
   },
