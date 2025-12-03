@@ -54,7 +54,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-zinc-200 rounded-full rotate-6 group-hover:rotate-12 transition-transform duration-500"></div>
               {/* REPLACE src below with your actual photo URL */}
               <img 
-                src="/Images/Image.jpeg" 
+                src="/public/images/mahiPic.jpeg" 
                 alt="Mahindha" 
                 className="relative w-full h-full object-cover rounded-full border-4 border-white shadow-xl z-10"
               />
