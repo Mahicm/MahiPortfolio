@@ -1,6 +1,7 @@
 import React from "react";
 import { PROJECTS } from "../constants.js";
 import { ArrowUpRight, Github } from "lucide-react";
+//import {resuMatch} from '../public/images/ResuMatch.png';
 
 function Projects() {
   return (
