@@ -24,7 +24,7 @@ function Projects() {
                 className="bg-white p-6 rounded-2xl border border-zinc-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all"
               >
                 <img
-                  src={project.url}
+                  src={project.url}  
                   alt={project.title || "Project screenshot"}
                   className="w-full h-40 object-cover rounded-lg mb-4 transition-transform duration-300 hover:scale-[1.02]"
                 />
