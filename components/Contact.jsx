@@ -23,7 +23,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_aps4zhn",
+        "service_e03fz6m",
         "template_70w7ebt",
         form.current,
         "6FpzhV267I_vh7bKp"
@@ -41,7 +41,9 @@ const Contact = () => {
           
         },
         (error) => {
-          console.log("Called Fail--------->", error.text);
+          console.log("EmailJS Error:", error);
+console.log("Status:", error.status);
+console.log("Text:", error.text);
           setMessage("Something went wrong. Please try again.");
           setLoading(false);
           e.target.reset();

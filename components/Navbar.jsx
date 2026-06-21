@@ -68,7 +68,7 @@ const Navbar = () => {
 
           {/* Resume Button */}
           <a
-            href="/resume/Mahi-Resume.pdf"
+            href="/resume/Mahindha_Resume.pdf"
             download
             className="text-sm px-4 py-2 rounded-lg bg-black text-white hover:bg-zinc-800 transition"
           >
@@ -106,7 +106,7 @@ const Navbar = () => {
 
           {/* Resume Button (Mobile) */}
           <a
-            href="/resume/Mahi-Resume.pdf"
+            href="/resume/Mahindha_Resume.pdf"
             download
             className="text-base px-4 py-3 rounded-lg bg-black text-white text-center hover:bg-zinc-800 transition"
           >

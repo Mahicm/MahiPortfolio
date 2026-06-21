@@ -16,7 +16,7 @@ const Hero = () => {
           {/* Text Content */}
           <div className="flex-1">
             <span className="inline-block px-3 py-1 mb-6 text-xs font-semibold tracking-wider text-zinc-500 uppercase bg-zinc-100 rounded-full border border-zinc-200">
-  Full-Stack Developer • AI/ML Engineer
+  Full-Stack Developer
 </span>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-zinc-900 mb-6 leading-tight">
               Building smart products with <br />

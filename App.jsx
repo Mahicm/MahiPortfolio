@@ -17,7 +17,7 @@ function App() {
         <Experience />
         <Projects />
         <Education />
-        <ChatWidget />
+    
       </main>
       <Contact />
     </div>

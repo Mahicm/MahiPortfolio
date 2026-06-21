@@ -1,5 +1,6 @@
 
 import resuMatch from './images/ResuMatch.png';
+import idrooms from './images/Idrooms.png';
 
 export const PERSONAL_INFO = {
   name: "Mahindha C",
@@ -8,14 +9,34 @@ export const PERSONAL_INFO = {
   about: "I am a B.Tech graduate in AI & Data Science (2024) with over 1 year of practical experience in full-stack development. I bridge the gap between robust software engineering and intelligent data solutions. My expertise spans building scalable web applications with React and Node.js to developing machine learning models with Python.",
   location: "Bangalore, India",
   resumeLink: "#" ,
-  linkedin: "https://www.linkedin.com/in/mahindha-c-123456789/",
+  linkedin: "https://www.linkedin.com/in/mahindha-c-b5a758215/",
   github: "https://github.com/Mahicm"
 
 
 };
 export const EXPERIENCES = [
-  {
+   {
     id: 1,
+    role: "Frontend Developer",
+    company: "PS Software Solutions", 
+    period: "2025 - Present",
+    description: [
+      "Developed and maintained scalable web applications using React.js, Next.js, Redux, and Tailwind CSS.",
+"Built the complete frontend for a hotel, PG, and hostel booking platform, including customer, agent, admin, and super-admin dashboards.",
+"Created reusable UI components and implemented responsive, mobile-first designs for seamless user experiences across devices.",
+"Integrated 20+ REST APIs using Axios and TanStack Query with efficient data fetching, caching, error handling, and loading states.",
+"Implemented authentication, role-based access control, booking workflows, search, filtering, and reporting features.",
+"Optimized application performance through lazy loading, code splitting, image optimization, and efficient state management.",
+"Worked with Zoho Catalyst and Zoho APIs to build backend workflows and business automation solutions.",
+"Collaborated directly with clients to gather requirements, provide demos, and deliver production-ready solutions."
+    ],
+    technologies: [
+      "React","Next.js", "Redux", "JavaScript", "REST APIs",
+      "Tailwind CSS", "Github", "Tanstack query"
+    ]
+  },
+  {
+    id: 2,
     role: "Frontend Developer",
     company: "Elite Tech Corp", 
     period: "2024 - 2025",
@@ -53,8 +74,28 @@ export const EDUCATION = [
 ];
 
 export const PROJECTS = [
+   {
+  id: 1,
+  title: "idrooms.in",
+  description: "idrooms.in is a comprehensive hotel, PG, and hostel booking platform designed to simplify accommodation discovery and reservations. I developed the complete frontend application using React.js and Next.js, implementing customer, agent, admin, and super-admin dashboards. The platform includes advanced search and filtering, booking workflows, role-based access control, authentication, real-time data handling, and responsive mobile-first user interfaces. Integrated 20+ REST APIs using TanStack Query and Axios, while optimizing performance through lazy loading, code splitting, and efficient state management.",
+  tags: [
+    "React.js",
+    "Next.js",
+    "Redux",
+    "TanStack Query",
+    "Tailwind CSS",
+    "REST APIs",
+    "Axios",
+    "Responsive Design",
+    "Role-Based Access Control",
+    "Vercel"
+  ],
+  url: idrooms,
+  link: "https://idrooms.in",
+  gitlink: ""
+},
   {
-    id: 1,
+    id: 2,
     title: "ResuMatch AI",
     description: "ResumeMatch AI is an intelligent resume analyzer that uses Google Gemini AI to extract structured information from resumes (PDFs, Docs) and compare them with job descriptions. The system calculates a match score, highlights missing skills, generates improved bullet points, and provides ATS-optimized suggestions to increase job-fit and resume quality. Users can upload their resume, paste a job description, and instantly receive a detailed analysis powered by generative AI.",
     tags: ["React", "Vite", "Tailwind CSS","Google Gemini 2.5 Flash API","Vercel Deployment"],
@@ -62,6 +103,9 @@ export const PROJECTS = [
     link:"https://resu-match-ai-ten.vercel.app/",
     gitlink:"https://github.com/Mahicm/ResuMatchAI"
   },
+ 
+
+
   // {
   //   id: 2,
   //   title: "AI-Powered Analytics Dashboard",
@@ -81,11 +125,11 @@ export const PROJECTS = [
 export const SKILLS = [
   {
     category: "Frontend",
-    skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Redux", "Tailwind CSS","Material UI"]
+    skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Next.js", "Redux", "Tailwind CSS","Material UI"]
   },
   {
     category: "Backend",
-    skills: ["Node.js", "Express", "RESTful APIs", "Java", "Python", "SQL"]
+    skills: ["Node.js", "Express", "RESTful APIs", "Python", "SQL"]
   },
   {
     category: "AI & Data Science",
